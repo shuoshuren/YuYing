@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_stream"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_stream_say"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="开始录音" />
+
+    <Button
+        android:id="@+id/btn_stream_play"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="播放" />
+
+    <TextView
+        android:id="@+id/tv_stream_log"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.0"
+        android:text="录音成功"
+        android:textSize="24sp" />
+
+</LinearLayout>
